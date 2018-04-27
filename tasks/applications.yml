@@ -1,0 +1,24 @@
+---
+- name: Install Java via homebrew
+  homebrew_cask: name=caskroom/versions/java8
+- name: Install Python3 via homebrew
+  homebrew_cask: name=python3
+- name: Install AWS Cli via pip
+  pip: 
+    name: awscli
+    state: latest
+    extra_args: --upgrade --user
+- name: Install Terraform via homebrew
+  homebrew_cask: name=terraform
+- name: Install Java JDK via hoÍmebrew
+  homebrew_cask: name=java-jdk-javadoc
+- name: Install Google Chrome via Homebrew
+  homebrew_cask: name=google-chrome
+- name: Install Git via Homebrew
+  homebrew: name=git
+- name: Install Docker via Homebrew
+  homebrew: name=docker
+- name: Install Mesos via Homebrew
+  homebrew: name=mesos 
+- name: Install Vault via Homebrew
+  homebrew: name=vault 

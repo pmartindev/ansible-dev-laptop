@@ -1,4 +1,9 @@
+# Downloads Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+#Install xcode command line tools
 xcode-select --install
-ansible-playbook playbook.yml -i inventory -K
+
+#Install ansible
+ansible-playbook main.yml -i inventory -K
+
