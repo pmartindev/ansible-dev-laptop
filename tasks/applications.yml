@@ -1,6 +1,8 @@
 ---
 - name: Install Java via homebrew
   homebrew_cask: name=caskroom/versions/java8
+- name: Install Docker for Mac via homebrew cask
+  homebrew_cask: name=docker
 - name: Install Python3 via homebrew
   homebrew_cask: name=python3
 - name: Install AWS Cli via pip
@@ -16,9 +18,11 @@
   homebrew_cask: name=google-chrome
 - name: Install Git via Homebrew
   homebrew: name=git
-- name: Install Docker via Homebrew
-  homebrew: name=docker
 - name: Install Mesos via Homebrew
   homebrew: name=mesos 
 - name: Install Vault via Homebrew
   homebrew: name=vault 
+- name: Install Docker Cloud via homebrew
+  homebrew: name=docker-cloud
+- name: Install Docker via homebrew
+  homebrew: name=docker
