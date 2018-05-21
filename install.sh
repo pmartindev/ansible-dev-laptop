@@ -5,5 +5,6 @@
 xcode-select --install
 
 #Install ansible
+brew install ansible
 ansible-playbook main.yml -i inventory -K
 

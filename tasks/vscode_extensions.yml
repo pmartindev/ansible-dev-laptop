@@ -1,0 +1,24 @@
+---
+- name: Install Ansible extension
+  command: code --install-extension vscoss.vscode-ansible
+
+- name: Install Code Runner extension
+  command: code --install-extension formulahendry.code-runner
+
+- name: Install Debugger for Chrome extension
+  command: code --install-extension msjsdiag.debugger-for-chrome
+
+- name: Install Docker extension
+  command: code --install-extension PeterJausovec.vscode-docker
+
+- name: Install Markdown All in One extension
+  command: code --install-extension yzhang.markdown-all-in-one
+
+- name: Install Python extension
+  command: code --install-extension ms-python.python
+
+- name: Install Terraform extension
+  command: code --install-extension mauve.terraform
+
+- name: Install Todo+ extension
+  command: code --install-extension fabiospampinato.vscode-todo-plus
