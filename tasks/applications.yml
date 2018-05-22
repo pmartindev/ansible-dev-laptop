@@ -27,10 +27,6 @@
   homebrew: name=vault 
 - name: Install VSCode via Homebrew
   homebrew_cask: name=visual-studio-code
-- hosts: all
-  connection: local
-  tasks:
-    - include: tasks/vscodeextensions.yml
 - name: Install ZoomUS via Homebrew
   homebrew_cask: name=zoomus
 - name: Install Slack via Homebrew
