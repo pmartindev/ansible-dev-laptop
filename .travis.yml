@@ -1,4 +1,5 @@
-sudo: required
-os: osx
+sudo: false
+os: xcode9.3
 
-script: bash ./install.sh
+script: 
+  - "bash ./install.sh"
