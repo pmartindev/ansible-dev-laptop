@@ -1,5 +1,5 @@
 sudo: false
-os: xcode9.3
+os: osx
 
 script: 
   - "bash ./install.sh"
