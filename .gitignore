@@ -1,3 +1,4 @@
 *.retry
 playbook
 files/.patoken
+password
