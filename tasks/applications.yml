@@ -28,6 +28,8 @@
   homebrew_cask: name=google-chrome
 - name: Install Git via Homebrew
   homebrew: name=git
+- name: Install HerokuCli via Homebrew
+  homebrew: name=heroku/brew/heroku
 - name: Install Mesos via Homebrew
   homebrew: name=mesos 
 - name: Install Vault via Homebrew
