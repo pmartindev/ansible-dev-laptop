@@ -5,6 +5,8 @@
   homebrew_cask: name=docker
 - name: Install Python3 via Homebrew
   homebrew_cask: name=python3
+- name: Install Pyenv via Homebrew
+  homebrew: name=pyenv 
 - name: Install AWS Cli via pip
   pip: 
     name: awscli
