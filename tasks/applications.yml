@@ -11,6 +11,11 @@
   pip: 
     name: awscli
     state: latest
+    extra_args: --upgrade --user  
+- name: Install VirtualEnv via pip
+  pip: 
+    name: virtualenv
+    state: latest
     extra_args: --upgrade --user
 - name: Install pika (used by RabbitMQ)
   pip:
