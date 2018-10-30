@@ -44,7 +44,6 @@
   homebrew_cask: name=slack
 - homebrew_cask: 
   name: VirtualBox
-  state: present
   install_options: force
 - name: Install VirtualBox via Homebrew
   homebrew_cask: name=virtualbox
