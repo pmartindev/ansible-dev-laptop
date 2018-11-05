@@ -42,8 +42,8 @@
   homebrew_cask: name=zoomus
 - name: Install Slack via Homebrew
   homebrew_cask: name=slack
-- homebrew_cask: 
-  name: virtualbox
+- name: Install Virtualbox via Homebrew
+  homebrew_cask: name=virtualbox
 - name: Install Chefdk via Homebrew
   homebrew_cask: name=chefdk
 
