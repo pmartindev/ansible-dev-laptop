@@ -43,10 +43,7 @@
 - name: Install Slack via Homebrew
   homebrew_cask: name=slack
 - homebrew_cask: 
-  name: VirtualBox
-  install_options: force
-- name: Install VirtualBox via Homebrew
-  homebrew_cask: name=virtualbox
+  name: virtualbox
   install_options: force
 - name: Install Chefdk via Homebrew
   homebrew_cask: name=chefdk
