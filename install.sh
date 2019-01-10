@@ -1,4 +1,4 @@
-# Downloads Homebrew
+pi# Downloads Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #Install xcode command line tools
